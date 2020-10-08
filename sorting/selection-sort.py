@@ -1,12 +1,12 @@
-def selsort(myarray,r):
+def selsort(A):
+    r = len(A)
     for x in range(r):
-        minimum = x 
+        minimum = x
         for y in range(x + 1, r):
-            if myarray[y] < myarray[minimum]:
+            if A[y] < A[minimum]:
                 minimum = y
-        (myarray[x], myarray[minimum]) = (myarray[minimum],myarray[x])
+        (A[x], A[minimum]) = (A[minimum],A[x])
 
 mylist = input('Enter the list values to be stored: ').split()
-r = len(mylist)
-selsort(mylist, r)
+selsort(mylist)
 print(mylist)
