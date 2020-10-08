@@ -1,15 +1,16 @@
-def shsort(myarray, n):
+def shsort(A):
+    n = len(A)
     g = n // 2
     while g > 0:
         for x in range(g, n):
-            y = myarray[x]
+            y = A[x]
             z = x
-            while z >= g and myarray[z - g] > y:
-                myarray[z] = myarray[z - g]
+            while z >= g and A[z - g] > y:
+                A[z] = A[z - g]
                 z -= g
-            myarray[z] = y
+            A[z] = y
         g //= 2
+
 mylist = input('Enter the list values to be stored: ').split()
-length = len(mylist)
-shsort(mylist, length)
+shsort(mylist)
 print(mylist)
