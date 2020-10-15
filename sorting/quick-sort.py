@@ -2,6 +2,8 @@ def partition(A, p, r):
     x = A[r]
     i = (p - 1)
     for j in range(p, r):
+        # for non-increasing array
+        # A[j] > x:
         if A[j] < x:
             i = i + 1
             A[i], A[j] = A[j], A[i]
