@@ -6,4 +6,4 @@ I highly recommend that you first implement the algorithms in C/C++ of Java. Thi
 
 Later when you reach a point where you feel confident, write the same algorithms in python so as to clear the algorithm concepts and help improve your python skills.
 
-If you dont understand the Object Oriented Part in the algorithms focus on the functions. I am a beginner in python and algorithms so all code is simple yet.
+If you dont understand the Object Oriented part in the algorithms focus on the functions. I am a beginner in python and algorithms so all code is simple yet.
